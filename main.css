@@ -51,6 +51,10 @@ a:focus, a:hover {
   color: #1d9b6c;
 }
 
+img {
+  border-radius: 150px;
+}
+
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;

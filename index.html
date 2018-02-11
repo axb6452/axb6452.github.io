@@ -8,62 +8,72 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Ashok Balakumar</title>
+    <title>Ashok Balakumar Portfolio</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="https://blackrockdigital.github.io/startbootstrap-grayscale/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="main.css" rel="stylesheet">
+    <!-- <link href="main.css" rel="stylesheet"> -->
+    <link href="css/grayscale.css" rel="stylesheet">
 
   </head>
 
-  <body id="page-top">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> -->
-        <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> -->
-          <!-- Menu -->
-          <!-- <i class="fa fa-bars"></i> -->
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-            </li>
-          </ul>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-github fa-2x"></i>
+                    <i class="fa fa-linkedin fa-2x"></i>
+                    <i class="fa fa-envelope fa-2x"></i>
+                </a>
+            </div>
+
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#skill">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#project">Projects</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
+        <!-- /.container -->
     </nav>
 
     <!-- Intro Header -->
-    <header class="masthead">
+    <header class="intro">
       <div class="intro-body">
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-md-8 col-md-offset-2">
               <h1 class="brand-heading">Ashok Balakumar</h1>
               <p class="intro-text">Full Stack Web Developer</p>
-              <a href="#about" class="btn btn-circle js-scroll-trigger">
+              <img src="https://drive.google.com/uc?export=view&id=0Byjit7D57G8fODJPMmFkZlk1Yms" alt="profilePic" width="20%"/><br>
+              <a href="#about" class="btn btn-circle page-scroll">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
             </div>
@@ -74,100 +84,29 @@
 
     <!-- About Section -->
     <section id="about" class="content-section text-center">
-      <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
+          <div class="col-lg-8 col-lg-offset-2">
             <h2>About Me</h2>
             <p>....</p>
-          </div>
         </div>
       </div>
     </section>
 
     <!-- Download Section -->
-    <section id="skill" class="download-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-8 mx-auto">
+    <section id="skill" class="content-section text-center">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
           <h2>Skills</h2>
           <p>....</p>
-          <!-- <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p> -->
-          <!-- <a href="#" class="btn btn-default btn-lg">Visit Download Page</a> -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact Info.</h2>
-            <p>....</p>
-            <!-- <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
-                  <i class="fa fa-twitter fa-fw"></i>
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/BlackrockDigital/startbootstrap" class="btn btn-default btn-lg">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
-                  <i class="fa fa-google-plus fa-fw"></i>
-                  <span class="network-name">Google+</span>
-                </a>
-              </li>
-            </ul> -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="resume" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Resume</h2>
-            <p>....</p>
-            <a href="#" class="btn btn-default btn-lg">Download Resume</a>
-
-            <!-- <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
-                  <i class="fa fa-twitter fa-fw"></i>
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/BlackrockDigital/startbootstrap" class="btn btn-default btn-lg">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
-                  <i class="fa fa-google-plus fa-fw"></i>
-                  <span class="network-name">Google+</span>
-                </a>
-              </li>
-            </ul> -->
-          </div>
         </div>
       </div>
     </section>
 
     <section id="project" class="download-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-8 mx-auto">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
           <h2>Projects</h2>
           <p>....</p>
-          <!-- <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p> -->
-          <!-- <a href="#" class="btn btn-default btn-lg">Visit Download Page</a> -->
         </div>
       </div>
     </section>
@@ -183,17 +122,16 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/jquery.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbihpxT0idF8hVkvYP32krhzeO0m3zYgA"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
+<script src="js/grayscale.min.js"></script>
 
   </body>
 
