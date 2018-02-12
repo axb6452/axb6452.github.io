@@ -6,7 +6,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100
       -ms-text-size-adjust: 100%;
 }
 body {
@@ -1129,8 +1129,10 @@ img {
 }
 .img-thumbnail {
   display: inline-block;
-  max-width: 100%;
-  height: auto;
+  /* max-width: 100%; */
+  /* height: auto; */
+  height: 250px;
+  width: 600px;
   padding: 4px;
   line-height: 1.42857143;
   background-color: #fff;
@@ -2271,10 +2273,10 @@ th {
 .table > thead > tr > td,
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
-  padding: 8px;
+  padding: 20px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #ddd;
+  /* border-top: 1px solid #ddd; */
 }
 .table > thead > tr > th {
   vertical-align: bottom;
@@ -3003,6 +3005,7 @@ select[multiple].input-lg {
 .btn {
   display: inline-block;
   padding: 6px 12px;
+  /* margin-right: 30px; */
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
