@@ -22,6 +22,16 @@
 	/* -webkit-font-smoothing: antialiased; */
 	/* -moz-osx-font-smoothing: grayscale; */
 /* } */
+.devicons-ember:before {
+  content:"\e61b";
+  font-size: 50px;
+}
+
+.devicons-msql_server:before {
+  content:"\e67c";
+  font-size: 50px;
+}
+
 .devicon-sketch-line-wordmark:before {
   content: "\e94c";
 }
@@ -862,11 +872,6 @@
 .devicon-sequelize-original:before,
 .devicon-sequelize-plain:before {
 	content: "\e923";
-}
-
-.devicon-msql_server:before {
-  content: "\e67c";
-  font-size: 50px;
 }
 
 .devicon-symfony-original-wordmark:before,
