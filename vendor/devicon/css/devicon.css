@@ -2,7 +2,7 @@
 	font-family: 'devicon';
 	src:url('../fonts/devicon.eot');
 	src:url('../fonts/devicon.eot') format('embedded-opentype'),
-		url('../fonts/devicon.woff?') format('woff'),
+		url('../fonts/devicon.woff') format('woff'),
 		url('../fonts/devicon.ttf') format('truetype'),
 		url('../fonts/devicon.svg') format('svg');
 	font-weight: normal;
