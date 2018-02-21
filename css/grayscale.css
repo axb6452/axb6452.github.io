@@ -231,6 +231,18 @@ a:focus {
   background-size: 100% 100%;
   -o-background-size: 100% 100%;
 }
+.skills-section {
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  background: url(../img/skills.jpg) no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+
 #map {
   width: 100%;
   height: 200px;
@@ -241,6 +253,9 @@ a:focus {
     padding-top: 250px;
   }
   .download-section {
+    padding: 100px 0;
+  }
+  .skills-section {
     padding: 100px 0;
   }
   #map {

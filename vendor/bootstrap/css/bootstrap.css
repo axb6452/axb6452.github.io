@@ -1435,9 +1435,10 @@ ol ol {
   list-style: none;
 }
 .list-inline > li {
+  margin: 15px;
   display: inline-block;
-  padding-right: 5px;
-  padding-left: 5px;
+  font-size: 20px;
+  padding: 5px;
 }
 dl {
   margin-top: 0;
@@ -6519,8 +6520,11 @@ button.close {
 }
 .center-block {
   display: block;
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
   margin-right: auto;
   margin-left: auto;
+  text-transform: uppercase;
 }
 .pull-right {
   float: right !important;

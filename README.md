@@ -100,3 +100,13 @@ Outcomes. If your question is "Is it appropriate to put a photo of me passed out
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
 1.  All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
+
+    // Highlights section show casing previous experience.
+    // Assume that reader has no context of GA and building a full-stack project according to a prompt context. Therefore, show case what you're good at.
+    // Detail the process of what you built and how you were able to build it.
+    // Talk about what you learned about using Bootstrap from project 2 exp. Display what opinion you have about using this technology.
+    // The other thing I loved was to see how technology could be used to solve environmental issues.
+    // This should be a marriage between past experience and current work at GA.
+
+    // About me: Explain what value you add when you're hired.
+    // Imagine someone else is talking about your project.
