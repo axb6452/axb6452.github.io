@@ -21,7 +21,7 @@ $(function () {
     })
 
     const contentString = '<div class="info-window">' +
-                "<h3>Ashok's current location</h3>" +
+                '<h3>Current location</h3>' +
                 '<div class="info-content">' +
                 '<p>Waltham, MA</p>' +
                 '</div>' +
