@@ -66,6 +66,9 @@
                     <li>
                         <a class="page-scroll" href="#project">Projects</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#location">Location</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -212,7 +215,7 @@
                     <h3>Tic-Tac-Toe</h3>
                   </td>
                   <td>
-                    <h3>Bird Tracker</h3>
+                    <h3>The Bird Tracker</h3>
                   </td>
                 </tr>
               </thead>
@@ -220,7 +223,7 @@
                 <tr>
                   <td>
                     <img src="./img/Tic-tac-toe.png" class="img-thumbnail" alt="tic-tac-toe" width="80%"/><br><br>
-                    <p class="text-justify">My first project at General Assembly was to build an online version of classical tic-tac-toe using HTML, CSS and JavaScript.
+                    <p class="text-justify">An online version of classical tic-tac-toe built using HTML, CSS and JavaScript.
                       This project entailed development of the front-end for interaction with a provided Rails API, using AJAX calls.
                       Aside from conventional game functionality, I was able to incorporate multi-device, multi-player
                       and developed Artifical Intelligence for the user to play against. Who dares to beat the computer??
@@ -230,7 +233,9 @@
                   </td>
                   <td>
                     <img src="./img/BirdTracker.png" class="img-thumbnail" alt="BirdTracker" width="80%"/><br><br>
-                    <p class="text-justify">This was my first full stack project. More details to come once due.</p>
+                    <p class="text-justify">The Bird Tracker: A full stack web application built using HTML, CSS and JavaScript with a Ruby on Rails API. Features include a sightings table displaying recorded bird sightings.
+                      A signed in user has the ability to create a new bird sighting and update/delete user-owned sightings. Data logged can be exported to excel so that statistical analysis, including the distribution of birds
+                      in a given environment as a correlated variable with time, can be performed and used to determine critical factors on bird conditions, including vulnerability and extinction possibilities.</p>
                     <a href="https://axb6452.github.io/BirdWatcherClient" class="btn btn-default btn-lg"><span class="network-name">Live</span></a>
                     <a href="https://github.com/axb6452/BirdWatcherClient" class="btn btn-default btn-lg"><span class="network-name">GitHub</span></a>
                   </td>
@@ -243,7 +248,10 @@
       </section>
 
     <!-- Map Section -->
-    <div id="map"></div>
+    <section id="location" class="content-section text-center">
+        <h2>Present Location</h2>
+        <div id="map"></div>
+    </section>
 
     <!-- Footer -->
     <footer>
@@ -263,6 +271,7 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVbZKPBeuBIuNuYf_Q7Ynau_6aqxhiTvk"></script>
 
 <script src="js/grayscale.min.js"></script>
+<script src="js/custom.js"></script>
 
   </body>
 

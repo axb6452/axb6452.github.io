@@ -3817,6 +3817,10 @@ tbody.collapse.in {
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
 }
+.info-content {
+  color: #000;
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .input-group {
   position: relative;
   display: table;
