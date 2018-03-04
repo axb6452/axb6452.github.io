@@ -1115,6 +1115,10 @@ figure {
 img {
   vertical-align: middle;
 }
+.img-resume {
+  height: 36px;
+  vertical-align: text-bottom;
+}
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
