@@ -124,8 +124,9 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/Seychelles_greyscale_darkened_64.5.jpg) no-repeat bottom center scroll;
-  background-color: black;
+  background: linear-gradient(rgba(66, 73, 73, 0),
+      rgba(0, 0, 0, 0.8)), url(../img/Seychelles_greyscale_darkened_64.5.jpg) no-repeat bottom center scroll;
+  /* background: linear-gradient(black,grey,black); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -217,15 +218,14 @@ a:focus {
     transform: scale(1);
   }
 }
-.content-section {
-  padding-top: 100px;
-}
 .download-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/Ashok_darkened.jpg) no-repeat center center scroll;
-  background-color: black;
+  /* background: url(../img/Ashok_darkened.jpg) no-repeat center center scroll; */
+  background: linear-gradient(black, #424949, black);
+  background-size: cover;
+  /* background-color: black; */
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -235,8 +235,24 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/skills.jpg) no-repeat center center scroll;
-  background-color: black;
+  /* background: url(../img/skills.jpg) no-repeat center center scroll; */
+  background: linear-gradient(black, #424949, black);
+  background-size: cover;
+
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+
+.projects-section {
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  /* background: url(../img/projects.jpg) no-repeat center center scroll; */
+  background: linear-gradient(black, #424949, #424949, black);
+  /* background-size: cover; */
+  /* background-color: black; */
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -249,9 +265,6 @@ a:focus {
   margin-top: 100px;
 }
 @media (min-width: 767px) {
-  .content-section {
-    padding-top: 250px;
-  }
   .download-section {
     padding: 100px 0;
   }
