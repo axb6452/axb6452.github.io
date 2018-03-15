@@ -3678,17 +3678,18 @@ tbody.collapse.in {
   margin-left: -1px;
 }
 .btn-toolbar {
-  margin-left: -5px;
+  margin-left: 140px;
 }
 .btn-toolbar .btn,
 .btn-toolbar .btn-group,
 .btn-toolbar .input-group {
   float: left;
+  width: 100px;
 }
 .btn-toolbar > .btn,
 .btn-toolbar > .btn-group,
 .btn-toolbar > .input-group {
-  margin-left: 5px;
+  margin: 0 30px;
 }
 .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0;
