@@ -4292,6 +4292,21 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     max-height: 200px;
   }
 }
+
+@media (max-width: 500px) {
+  .navbar-header {
+  height: 60px;
+}
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+  height: 0px;
+  margin-right: -15px;
+  margin-left: -15px;
+  display: inline-block;
+}
+}
 .container > .navbar-header,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
