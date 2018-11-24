@@ -4301,7 +4301,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-collapse {
-  height: 0px;
+  height: 0;
   margin-right: -15px;
   margin-left: -15px;
   display: inline-block;
@@ -4311,7 +4311,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-collapse {
-  height: 60px;
+  /* height: 60px; */
   margin-right: -15px;
   margin-left: -15px;
 }
