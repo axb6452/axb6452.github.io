@@ -4296,6 +4296,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (max-width: 500px) {
   .navbar-header {
   height: 60px;
+  width: 500px;
 }
 .container > .navbar-header,
 .container-fluid > .navbar-header,
@@ -4326,8 +4327,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  margin-left: 200px;
-  overflow: hidden;
+  overflow: auto;
+  width: 200px;
 }
 }
 @media (min-width: 768px) {
