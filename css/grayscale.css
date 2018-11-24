@@ -304,6 +304,17 @@ ul.banner-social-buttons {
     margin-bottom: 0;
   }
 }
+@media (max-width: 500px) {
+  ul.banner-social-buttons li {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  ul.banner-social-buttons li:last-child {
+    margin-bottom: 0;
+  }
+}
+
 footer {
   padding: 50px 0;
 }

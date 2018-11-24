@@ -31,6 +31,11 @@
   content:"\e67c";
   font-size: 50px;
 }
+@media (max-width: 500px) {
+  .devicon-msql_server:before {
+    font-size: 30px
+  }
+}
 
 .devicon-sketch-line-wordmark:before {
   content: "\e94c";
@@ -121,6 +126,11 @@
 .devicon-express-original:before {
   content: "\e93d";
   font-size: 50px;
+}
+@media (max-width: 500px) {
+  .devicon-express-original:before {
+    font-size: 30px
+  }
 }
 .devicon-devicon-plain-wordmark:before {
   content: "\e93a";
@@ -282,6 +292,11 @@
 	content: "\e909";
   font-size: 50px;
 }
+@media (max-width: 500px) {
+  .devicon-github-plain:before {
+    font-size: 30px
+  }
+}
 .devicon-d3js-plain:before {
 	content: "\e90c";
 }
@@ -360,6 +375,11 @@
 	content: "\e637";
   font-size: 50px;
 }
+@media (max-width: 500px) {
+  .devicon-csharp-plain:before {
+    font-size: 30px
+  }
+}
 
 .devicon-c-line:before,
 .devicon-c-line-wordmark:before {
@@ -370,6 +390,11 @@
 .devicon-c-plain-wordmark:before {
 	content: "\e639";
   font-size: 50px;
+}
+@media (max-width: 500px) {
+  .devicon-c-plain:before {
+    font-size: 30px
+  }
 }
 
 .devicon-nodewebkit-line-wordmark:before {
@@ -473,6 +498,11 @@
 	content: "\e60f";
   font-size: 50px;
 }
+@media (max-width: 500px) {
+  .devicon-heroku-plain:before {
+    font-size: 30px
+  }
+}
 
 .devicon-go-plain:before {
 	content: "\e61b";
@@ -490,6 +520,11 @@
 .devicon-amazonwebservices-plain:before {
 	content: "\e603";
   font-size: 50px;
+}
+@media (max-width: 500px) {
+  .devicon-amazonwebservices-plain:before {
+    font-size: 30px
+  }
 }
 
 .devicon-amazonwebservices-plain-wordmark:before {
@@ -552,6 +587,11 @@
 	content: "\e62f";
   font-size: 50px;
 }
+@media (max-width: 500px) {
+  .devicon-bootstrap-plain:before {
+    font-size: 30px
+  }
+}
 
 .devicon-bower-line-wordmark:before {
 	content: "\e630";
@@ -603,6 +643,11 @@
 	content: "\e679";
   font-size: 50px;
 }
+@media (max-width: 500px) {
+  .devicon-css3-plain:before {
+    font-size: 30px
+  }
+}
 
 .devicon-debian-plain-wordmark:before {
 	content: "\e67e";
@@ -619,6 +664,11 @@
 .devicon-dot-net-plain:before {
 	content: "\e6d4";
   font-size: 50px;
+}
+@media (max-width: 500px) {
+  .devicon-dot-net-plain:before {
+    font-size: 30px
+  }
 }
 
 .devicon-drupal-plain-wordmark:before {
@@ -653,6 +703,11 @@
 	content: "\e7a8";
   font-size: 50px;
 }
+@media (max-width: 500px) {
+  .devicon-git-plain:before {
+    font-size: 30px
+  }
+}
 
 .devicon-google-original-wordmark:before,
 .devicon-google-plain-wordmark:before {
@@ -680,6 +735,11 @@
 	content: "\e7eb";
   font-size: 50px;
 }
+@media (max-width: 500px) {
+  .devicon-grunt-plain:before {
+    font-size: 30px
+  }
+}
 
 .devicon-gulp-plain:before {
 	content: "\e7ec";
@@ -692,6 +752,11 @@
 .devicon-html5-plain:before {
 	content: "\e7f7";
   font-size: 50px;
+}
+@media (max-width: 500px) {
+  .devicon-html5-plain:before {
+    font-size: 30px
+  }
 }
 
 .devicon-ie10-original:before,
@@ -723,10 +788,20 @@
 	content: "\e842";
   font-size: 50px;
 }
+@media (max-width: 500px) {
+  .devicon-java-plain:before {
+    font-size: 30px
+  }
+}
 
 .devicon-javascript-plain:before {
 	content: "\e845";
   font-size: 50px;
+}
+@media (max-width: 500px) {
+  .devicon-javascript-plain:before {
+    font-size: 30px
+  }
 }
 
 .devicon-jquery-plain-wordmark:before {
@@ -736,6 +811,11 @@
 .devicon-jquery-plain:before {
 	content: "\e84a";
   font-size: 50px;
+}
+@media (max-width: 500px) {
+  .devicon-jquery-plain:before {
+    font-size: 30px
+  }
 }
 
 .devicon-krakenjs-plain-wordmark:before {
@@ -770,6 +850,11 @@
 	content: "\eb44";
   font-size: 50px;
 }
+@media (max-width: 500px) {
+  .devicon-mongodb-plain:before {
+    font-size: 30px
+  }
+}
 
 .devicon-moodle-plain-wordmark:before {
 	content: "\eb5a";
@@ -794,6 +879,11 @@
 .devicon-nodejs-plain:before {
 	content: "\eb6a";
   font-size: 50px;
+}
+@media (max-width: 500px) {
+  .devicon-nodejs-plain:before {
+    font-size: 30px
+  }
 }
 
 .devicon-oracle-original:before,
@@ -821,6 +911,11 @@
 	content: "\eb7d";
   font-size: 50px;
 }
+@media (max-width: 500px) {
+  .devicon-postgresql-plain:before {
+    font-size: 30px
+  }
+}
 
 .devicon-python-plain-wordmark:before {
 	content: "\eb88";
@@ -838,6 +933,11 @@
 	content: "\eba3";
   font-size: 50px;
 }
+@media (max-width: 500px) {
+  .devicon-rails-plain:before {
+    font-size: 30px
+  }
+}
 
 .devicon-react-original-wordmark:before,
 .devicon-react-plain-wordmark:before {
@@ -847,6 +947,12 @@
 .devicon-react-original:before,
 .devicon-react-plain:before {
 	content: "\e601";
+  font-size: 50px;
+}
+@media (max-width: 500px) {
+  .devicon-react-plain:before {
+    font-size: 30px
+  }
 }
 
 .devicon-ruby-plain-wordmark:before {
@@ -857,11 +963,21 @@
 	content: "\ebca";
   font-size: 50px;
 }
+@media (max-width: 500px) {
+  .devicon-ruby-plain:before {
+    font-size: 30px
+  }
+}
 
 .devicon-sass-original:before,
 .devicon-sass-plain:before {
 	content: "\ebcb";
   font-size: 50px;
+}
+@media (max-width: 500px) {
+  .devicon-sass-plain:before {
+    font-size: 30px
+  }
 }
 
 .devicon-sequelize-original-wordmark:before,
