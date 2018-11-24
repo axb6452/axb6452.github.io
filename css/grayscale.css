@@ -307,8 +307,9 @@ ul.banner-social-buttons {
 @media (max-width: 500px) {
   ul.banner-social-buttons li {
     display: inline-block;
-    margin-bottom: 10px;
-    padding: 0;
+    margin: 0 auto;
+    padding: 6px;
+    font-size: 10px
   }
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
