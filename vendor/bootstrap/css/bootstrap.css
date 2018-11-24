@@ -4386,6 +4386,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  margin-left: 200px;
 }
 .navbar-toggle:focus {
   outline: 0;
