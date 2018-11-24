@@ -3715,6 +3715,7 @@ tbody.collapse.in {
 }
 @media (max-width: 500px) {
   .btn-toolbar {
+    margin-left: 0;
     display: inline-block;
     margin-bottom: 20px;
   }
