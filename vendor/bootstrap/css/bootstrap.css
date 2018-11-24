@@ -1146,6 +1146,23 @@ img {
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
+@media (max-width: 500px) {
+  .img-thumbnail {
+    display: inline-block;
+    /* max-width: 100%; */
+    /* height: auto; */
+    height: 200px;
+    width: 300px;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+         -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+  }
+}
 .img-circle {
   border-radius: 50%;
 }
@@ -2290,8 +2307,12 @@ th {
   .table > thead > tr > td,
   .table > tbody > tr > td,
   .table > tfoot > tr > td {
+    display: block;
     padding: 0;
     /* border-top: 1px solid #ddd; */
+  }
+  #btn-helloKenyan {
+    margin-bottom: 30px;
   }
 }
 
@@ -3692,16 +3713,31 @@ tbody.collapse.in {
 .btn-toolbar {
   margin-left: 140px;
 }
+@media (max-width: 500px) {
+  .btn-toolbar {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}
 .btn-toolbar .btn,
 .btn-toolbar .btn-group,
 .btn-toolbar .input-group {
   float: left;
   width: 100px;
 }
+@media (max-width: 500px) {
+  .btn-toolbar .btn,
+  .btn-toolbar .btn-group,
+  .btn-toolbar .input-group {
+    font-size: 11px;
+    width: 80px;
+  }
+}
 .btn-toolbar > .btn,
 .btn-toolbar > .btn-group,
 .btn-toolbar > .input-group {
   margin: 0 30px;
+  font-size: 11px;
 }
 .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0;

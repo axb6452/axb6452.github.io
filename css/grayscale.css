@@ -279,6 +279,11 @@ a:focus {
   color: #fff;
   background-color: transparent;
 }
+@media (max-width: 500px) {
+  .btn-default {
+  font-size: 11px;
+}
+}
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid #fff;
