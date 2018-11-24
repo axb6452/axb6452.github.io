@@ -31,12 +31,16 @@ p {
   margin: 0 0 25px;
   font-size: 18px;
   line-height: 1.5;
-  @media(min-width:768px) {
+}
+@media (min-width: 768px) {
+  p {
     margin: 0 0 35px;
     font-size: 20px;
     line-height: 1.6;
   }
-  @media (max-width: 500px) {
+}
+@media (max-width: 500px) {
+  p {
     margin: 0 15px 15px;
     font-size: 11px;
     line-height: 1.6;
