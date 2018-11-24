@@ -3738,7 +3738,6 @@ tbody.collapse.in {
 .btn-toolbar > .btn-group,
 .btn-toolbar > .input-group {
   margin: 0 30px;
-  font-size: 11px;
 }
 .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0;
