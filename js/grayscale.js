@@ -11,6 +11,7 @@ function collapseNavbar() {
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
+    console.log("hit");
 }
 
 $(window).scroll(collapseNavbar);
