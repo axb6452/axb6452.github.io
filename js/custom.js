@@ -1,5 +1,6 @@
 $(function () {
   function initMap () {
+    console.log("hit");
     const location = new google.maps.LatLng(42.3765, -71.2356)
     const mapCanvas = document.getElementById('map')
     mapCanvas.height = 300
