@@ -1,3 +1,6 @@
-$(window).on('load', function() {
-    console.log("Page is loaded");
+$(() => {
+    $(window).on('load', function() {
+        console.log("hit");
+        document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+    })
 })
