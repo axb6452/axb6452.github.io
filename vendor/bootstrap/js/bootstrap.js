@@ -531,7 +531,6 @@ if (typeof jQuery === 'undefined') {
       var $carousel = $(this)
       Plugin.call($carousel, $carousel.data())
     })
-    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
   })
 
 }(jQuery);
@@ -2373,6 +2372,7 @@ if (typeof jQuery === 'undefined') {
 
       Plugin.call($spy, data)
     })
+    console.log("hit");
   })
 
 }(jQuery);
