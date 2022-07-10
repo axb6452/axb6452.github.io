@@ -1,3 +1,5 @@
 $(() => {
-    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+    window.onload = (event) => {
+        console.log('page is fully loaded');
+      };
 })
