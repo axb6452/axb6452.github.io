@@ -42,6 +42,7 @@ google.maps.event.addDomListener(window, 'resize', function() {
 });
 
 function init() {
+    console.log("hit");
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
