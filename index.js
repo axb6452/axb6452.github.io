@@ -1,3 +1,3 @@
 $(() => {
-    $(".currentYear").val(new Date().getFullYear());
+    $(".currentYear").innerHTML = new Date().getFullYear();
 })
