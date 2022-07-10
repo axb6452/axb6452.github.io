@@ -1,3 +1,3 @@
-$(document).on("ready", function() {
+$(window).on('load', function() {
     console.log("Page is loaded");
 })
