@@ -13,8 +13,12 @@ function collapseNavbar() {
     }
 }
 
+function initYear() {
+    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+}
+
 $(window).scroll(collapseNavbar);
-$(document).ready(collapseNavbar);
+$(document).ready(collapseNavbar, initYear());
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
