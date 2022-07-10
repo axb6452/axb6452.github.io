@@ -3711,7 +3711,8 @@ tbody.collapse.in {
   margin-left: -1px;
 }
 .btn-toolbar {
-  margin-left: 140px;
+  display: inline-block;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .btn-toolbar {
@@ -3734,11 +3735,7 @@ tbody.collapse.in {
     width: 80px;
   }
 }
-.btn-toolbar > .btn,
-.btn-toolbar > .btn-group,
-.btn-toolbar > .input-group {
-  margin: 0 30px;
-}
+
 .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0;
 }
