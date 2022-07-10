@@ -48,6 +48,8 @@ $(function () {
       'stylers': [{'visibility': 'on'}, {'lightness': -25},
     {'saturation': -100}]}, {'featureType': 'water', 'elementType': 'geometry', 'stylers': [{'hue': '#ffff00'}, {'lightness': -25}, {'saturation': -97}]}]
     map.set('styles', styles)
+
+    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
   }
   google.maps.event.addDomListener(window, 'load', initMap)
 })

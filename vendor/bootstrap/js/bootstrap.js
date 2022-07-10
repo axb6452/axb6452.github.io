@@ -2053,7 +2053,6 @@ if (typeof jQuery === 'undefined') {
       var $spy = $(this)
       Plugin.call($spy, $spy.data())
     })
-    console.log("hit");
   })
 
 }(jQuery);
@@ -2373,7 +2372,6 @@ if (typeof jQuery === 'undefined') {
 
       Plugin.call($spy, data)
     })
-    console.log("hit");
   })
 
 }(jQuery);

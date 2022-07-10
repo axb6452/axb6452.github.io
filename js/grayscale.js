@@ -11,7 +11,6 @@ function collapseNavbar() {
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
-    console.log("hit");
 }
 
 $(window).scroll(collapseNavbar);
@@ -42,7 +41,6 @@ google.maps.event.addDomListener(window, 'resize', function() {
 });
 
 function init() {
-    console.log("hit");
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
