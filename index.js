@@ -1,5 +1,3 @@
-$(() => {
-    window.onload = (event) => {
-        console.log('page is fully loaded');
-      };
+$(document).on("ready", function() {
+    console.log("Page is loaded");
 })
