@@ -1,3 +1,3 @@
-$(() => {
-    console.log("hit");
+$((x) => {
+    console.log(x);
 })
