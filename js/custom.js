@@ -1,6 +1,6 @@
 $(function () {
   function initMap () {
-    const location = new google.maps.LatLng(42.3765, -71.2356)
+    const location = new google.maps.LatLng(28.0550, -82.6095)
     const mapCanvas = document.getElementById('map')
     mapCanvas.height = 300
     const mapOptions = {
@@ -23,7 +23,7 @@ $(function () {
     const contentString = '<div class="info-window">' +
                 '<h3>Current location</h3>' +
                 '<div class="info-content">' +
-                '<p>Waltham, MA</p>' +
+                '<p>Westchase, FL</p>' +
                 '</div>' +
                 '</div>'
 
