@@ -192,10 +192,13 @@
       <br>
       <div>
         <div class="input-group mb-3" style="margin: 0 auto; display: inline-flex;">
-          <input id="password" type="text" placeholder="Enter password" aria-label="Enter password" aria-describedby="basic-addon2" style="border-radius: 1px; color: black; background-color: white;">
+          <input id="password" type="password" placeholder="Enter password" aria-label="Enter password" aria-describedby="basic-addon2" style="border-radius: 1px; color: black; background-color: white;">
           <div class="input-group-append">
-            <a href="img/resume_12345.pdf" class="btn btn-default btn-lg" target="_blank" rel="noopeneer noreferrer" onclick="return validatePassword()">Download Resume</a><br>
+            <button class="btn btn-default btn-lg" onclick="validatePassword()">Submit</button><br>
           </div>
+        </div>
+        <div id="resume-link" style="display: none;">
+          <a href="img/resume_12345.pdf" class="btn btn-default btn-lg" target="_blank" rel="noopener noreferrer">Download Resume</a>
         </div>
       </div>
       <br>
