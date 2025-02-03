@@ -192,7 +192,7 @@
       <br>
       <div>
         <div class="input-group mb-3" style="margin: 0 auto; display: inline-flex;">
-          <input id="password" type="password" placeholder="Enter password" aria-label="Enter password" aria-describedby="basic-addon2" style="border-radius: 1px; color: black; background-color: white;">
+          <input id="password" type="password" placeholder="Enter password" aria-label="Enter password" aria-describedby="basic-addon2" style="border-radius: 1px; color: black; background-color: white;" onkeypress="if(event.key === 'Enter') validatePassword()">
           <div class="input-group-append">
             <button class="btn btn-default btn-lg" onclick="validatePassword()">Submit</button><br>
           </div>
