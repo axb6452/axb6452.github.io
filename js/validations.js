@@ -4,7 +4,7 @@ function validatePassword() {
         return true;
     } else {
         $("#password").val("");
-        alert('wrong password!');
+        alert('Incorrect password. Please try again.');
         return false;
     }
 }
